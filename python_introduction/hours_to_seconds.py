@@ -1,2 +1,3 @@
 hours = 2
-print(f' 2 hour(s) is {3600 *  hours} seconds')
+seconds = 3600 *  hours
+print(f' 2 hour(s) is {seconds} seconds')
