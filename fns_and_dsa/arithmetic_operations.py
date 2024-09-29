@@ -1,6 +1,9 @@
 
 
 def perform_operation(num1,num2,operation):
+    num1 = num1
+    num2 = num2
+    operation=operation
     result = None
     match operation :
         case 'add' :
