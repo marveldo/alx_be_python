@@ -21,6 +21,7 @@ def main():
                 print(f'{temperature_value}°{value_to_convert} is {convert_to_celsius(temperature_value)}°C')
             case 'C' :
                 print(f'{temperature_value}°{value_to_convert} is {convert_to_fahrenheit(temperature_value)}°F')
-
+    else :
+        raise ValueError('Invalid temperature. Please enter a numeric value.')
 if __name__ == "__main__" :
     main()
