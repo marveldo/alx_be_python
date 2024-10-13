@@ -20,5 +20,5 @@ class Circle(Shape):
         self.radius = radius
     
     def area(self):
-        return f'{3.14 * self.radius * self.radius : .14f}'
+        return f'{3.14 * self.radius ** 2 : .14f}'
     
