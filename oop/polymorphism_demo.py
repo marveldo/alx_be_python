@@ -1,5 +1,5 @@
 
-class Shape :
+class Shape:
 
     def area(self):
         raise NotImplementedError('Method needs to be overwritten')
